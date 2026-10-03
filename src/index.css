@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #090d16;
+    --accent-indigo: #6366f1;
+    --accent-purple: #a855f7;
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: #f8fafc;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Theme variations */
+body[data-theme="midnight"] {
+  background-color: #030712;
+}
+
+body[data-theme="emerald"] {
+  background-color: #022c22;
+}
+
+body[data-theme="sunset"] {
+  background-color: #1a0c1e;
+}
+
+body[data-theme="solar"] {
+  background-color: #0f172a;
+}
+
+/* 3D Perspective Card Flip Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hide scrollbar for clean UI overflow */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
