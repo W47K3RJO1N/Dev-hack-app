@@ -31,11 +31,11 @@ Alex constantly cycled between burnout and last-minute cramming:
 ## Code
 You can explore the full open-source repository on GitHub:
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-StudyPulse_PRO-indigo?style=for-the-badge&logo=github)](https://github.com/your-username/studypulse-pro)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Dev--hack--app-indigo?style=for-the-badge&logo=github)](https://github.com/W47K3RJO1N/Dev-hack-app)
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/studypulse-pro.git
+git clone https://github.com/W47K3RJO1N/Dev-hack-app.git
 
 # Install dependencies
 npm install
@@ -80,4 +80,3 @@ By building **StudyPulse PRO** with open technology:
 
 ---
 
-*Made with ❤️ for Alex and students everywhere.*
