@@ -23,7 +23,7 @@ Alex constantly cycled between burnout and last-minute cramming:
 ---
 
 ## Demo
-- 🌐 **Live Web Application**: [https://studypulse-pro.vercel.app](https://studypulse-pro.vercel.app) *(or your deployed link)*
+- 🌐 **Live Web Application**: [https://dev-hack-app.vercel.app](https://dev-hack-app.vercel.app)
 - 📹 **Video Demo / Screenshots**: Check out the interactive preview of the Study Buddy and Pomodoro focus timer below!
 
 ---
